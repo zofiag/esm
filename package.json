@@ -4,7 +4,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "run": "node ./build.js"
+    "run": "node --es-module-specifier-resolution=node index.js"
   },
   "author": "",
   "license": "ISC",

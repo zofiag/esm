@@ -6,7 +6,7 @@ esbuild
     mainFields: ["module", "main"],
     entryPoints: ["index.js"],
     bundle: true,
-    external: ["./node_modules/*"],
+    external: ["@aws-sdk/client-s3"],
     outdir: "dist",
     platform: "node",
     format: "esm",
