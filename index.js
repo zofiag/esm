@@ -1,2 +1,2 @@
-import { S3Client } from "@aws-sdk/client-s3";
-console.log(S3Client);
+import { Node } from "@remirror/pm/model";
+console.log(Node);
